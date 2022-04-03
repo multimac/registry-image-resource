@@ -397,7 +397,7 @@ type GetParams struct {
 
 func (p GetParams) Format() string {
 	if p.RawFormat == "" {
-		return "rootfs"
+		return "oci"
 	}
 
 	return p.RawFormat
